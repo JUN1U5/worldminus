@@ -78,25 +78,6 @@ section2 {
     height:40px;
 }
 
-/* experimenting with boxes */
-.boxed {
-  border: 2px double #BC5A4A ;
-  border-radius: 1em;
-  padding: 1em;
-  position: absolute;
-  top: 75%;
-  left: 10%;
-}
-
-.boxed2 {
-  border: 2px double #BC5A4A ;
-  border-radius: 1em;
-  padding: 1em;
-  position: absolute;
-  top: 75%;
-  left: 10%;
-}
-
 /* lines */
 div.vertical-line{
     width: 2px; /* Line width */
@@ -341,3 +322,23 @@ background:
   font-size:100%;
 }
 */
+
+/* experimenting with boxes
+.boxed {
+  border: 2px double #BC5A4A ;
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 75%;
+  left: 10%;
+}
+
+.boxed2 {
+  border: 2px double #BC5A4A ;
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 75%;
+  left: 10%;
+}
+/*
