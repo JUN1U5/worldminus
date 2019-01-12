@@ -13,6 +13,7 @@ html {
 body {
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: #1a1b24;
   font-family: 'Source Sans Pro', sans-serif;
   color: #CEC05A;
 }
@@ -218,7 +219,7 @@ button {
   color: #fff;
   text-align: center;
   margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
   padding:30px;
 }
 
@@ -276,6 +277,10 @@ div.new i{
 }
 
 #grad2 {
+position: relative;
+padding-top:50px;
+width:100%;
+height:300px;
 background:
   /* On "top" */
   repeating-linear-gradient(
@@ -292,6 +297,14 @@ background:
   );
 }
 
+#grad2 img {
+  left: 0;
+  bottom: 0;
+  max-height: 50%;
+  width: auto;
+}
+
+/*
 .speech-bubble {
 	background-image: url('../img/sky.gif');
 	position: relative;
@@ -328,9 +341,4 @@ background:
   color: #fff;
   font-size:100%;
 }
-
-#izz {
-  width: auto;
-  max-height: 50%;
-  z-index: -1;
-}
+*/
