@@ -1,2 +1,2 @@
-# worldminus.github.io
+# worldminus.com
 WorldMinus
