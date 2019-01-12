@@ -141,7 +141,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('img/tvsnap.jpg') black no-repeat center center scroll;
+    background: url('https://raw.githubusercontent.com/JUN1U5/worldminus/master/img/tvsnap.jpg') black no-repeat center center scroll;
   }
   header video {
     display: none;
