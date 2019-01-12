@@ -1,3 +1,10 @@
+/* == palette ==
+dark bluegray #1a1b24
+faded gold #CEC05A
+pastel purp #AE68B0
+*/
+
+
 html {
   position: relative;
   min-height: 100%;
@@ -29,6 +36,19 @@ h2 {
   color: #CEC05A;
   font-weight:lighter;
   font-size:150%;
+}
+
+h5 {
+  color: #1a1b24;
+  font-size:150%;
+}
+
+h5 a{
+  color: #1a1b24;
+}
+
+h5 a:hover{
+  color: #hotpink;
 }
 
 img {
@@ -100,7 +120,7 @@ div.horizontal-line{
 
 header {
   position: relative;
-  background-color: black;
+  background-color: #1a1b24;
   height: 75vh;
   min-height: 25rem;
   width: 100%;
