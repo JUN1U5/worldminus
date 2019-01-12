@@ -4,7 +4,6 @@ faded gold #CEC05A
 pastel purp #AE68B0
 */
 
-
 html {
   position: relative;
   min-height: 100%;
@@ -142,14 +141,12 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('img/tv_snap.png') no-repeat center center scroll;
+    background: url('img/tv_snap.png') black no-repeat center center scroll;
   }
   header video {
     display: none;
   }
 }
-
-
 
 /* buttons */
 button {
@@ -192,7 +189,6 @@ button {
   right: 0;
 }
 
-
 /* === new music section === */
 
 .new {
@@ -223,7 +219,6 @@ div.new i{
     height: 100;
     margin-bottom: 20px;
 }
-
 
 /* Color Wraps */
 #white {
@@ -283,6 +278,19 @@ background:
   max-height: 50%;
   width: auto;
 }
+
+/* bootstrap */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
 
 /*
 .speech-bubble {
