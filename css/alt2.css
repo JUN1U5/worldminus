@@ -79,11 +79,11 @@ p {
 */
 
 p{
-  opacity: 0;
-  color: #a1dca8;
-  animation-name: fadeInOut;
+  color: #405843;
+  /* animation-name: fadeInOut;
   animation-delay: 8.5s;
   animation-duration: 9s;
+  opacity: 0; */
 }
 
 @keyframes fadeInOut {
@@ -120,7 +120,8 @@ div.vertical-line{
 
 div.horizontal-line{
       width: 100%;
-      background-color: #a1dca8; /* Line color */
+      /* background-color: #a1dca8; /* Line color */
+      background-image: linear-gradient(to right, rgba(161,220,168,0), rgba(161,220,168,1));
       height: 15px;
       float: left; /* Causes the line to float to left of content.
         You can instead use position:absolute or display:inline-block
